@@ -57,6 +57,7 @@ Lezen gaat niet echt meer, dat moet allemaal worden voorgelezen (screen readers)
 
 - De WKO-atlas rijksdienstondernemers warmte koude opslag
 
+### Belangrijk! :point_down:
 - Wat zou je zelf graag zien:
     - Contrasten, contouren
     - Consistentie
@@ -70,3 +71,28 @@ Lezen gaat niet echt meer, dat moet allemaal worden voorgelezen (screen readers)
 
 - Expiriment [DEMO](https://aaraar.github.io/roger-ravelli-group/) zogenaamd accesible
     - praktisch onbruikbaar
+
+### First thoughts
+Ik denk dat die grafieken echt een mooie case is
+omdat ze juist heel moeilijk voor hem zijn
+ik zat meteen al te denken als je die spaghetti grafiek als uitgangspositie neemt dat je dan per lijn kan bekeijken en die ene lijn dan weer vertaald naar een tabel of iets dergelijks
+waardoor het makkelijker wordt om hem te begrijpen/lezen/consumeren
+maar dat je het visuele aspect van de grafiek niet meteen over boord gooit
+
+### College Marie 09-04-2020
+tips and tricks
+- Headings and subheadings
+- 1 punt per paragraaf
+- actieve vorm
+- onnodig jargon voorkomen
+- gebruik images, diagrammen en grafieken als ondersteuning
+- kleiner maken van tekst
+- veel witregels/witruimte
+- gebruik van woordenlijsten waar termen worden uitgelegd
+
+Do not rely on sound clues only, use visual clues aswell.
+
+Disabillity
+Empathize - Define - Ideate - Prototype - Test
+- Think with us!
+- Design with us!
