@@ -1,26 +1,70 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script defer src="js/index.js"></script>
-    <title>Interactieve grafiek</title>
-</head>
-<body>
+    <title>Interactieve tabel</title>
+  </head>
+  <body>
+    <h1>Toegankelijkheids score van overheidswebsites</h1>
     <div id="curve_chart" style="width: 900px; height: 500px"></div>
+    <ul>
+        <caption> Voor deze test wil ik graag weten:</caption>
+        <li>Hoe reageert de screen reader op verschillende html elementen?</li>
+        <li>hoe de screen reader reageert op cijfers
+            in een tabel. Denk hierbij aan de uitspraak, voorbeeld; is er een verschil
+            tussen 12 en twaalf? waarbij de tweede twaalf volledig is uitgeschreven en
+            de eerste bestaat uit de cijfers één en twee.</li>
+        <li>Is de caption nuttig bij een lijst?</li>
+        <li>Is de samenvatting onderaan de tabel handig? Of moet deze misschien bovenaan?</li>
+        <li>Hoe zit het met tabindex? Ik heb voor deze test alle tabel items een tabindex 0 gegeven wat heeft dit voor effect op de pagina?</li>
+    </ul>
 
-    <table summary="In deze tabel is de waarde van toegankelijkheid omgezet naar">
-        <caption>Toegankelijkheid van overheidswebsite: DigID</caption>
-       <tr>
-            <td></td>
-            <th scope="col"></th>
-            <th scope="col"></th>
-       </tr>
-            
-        
-        
+    <table
+      summary="In deze tabel is de waarde van toegankelijkheid in procenten uitgezet tegen het jaartal"
+    >
+      <caption>
+        Toegankelijkheid in procenten van overheidswebsite: DigID. Statestieken van 2010 tot en met 2016.
+      </caption>
+      <tr>
+        <th scope="col">Jaartal.</th>
+        <th scope="col">Toegankelijkheids score.</th>
+      </tr>
+      <tr>
+        <td scope="row">2010</td>
+        <td>twaalf.</td>
+      </tr>
+      <tr>
+        <td scope="row">2011</td>
+        <td>achtien.</td>
+      </tr>
+      <tr>
+        <td scope="row">2012</td>
+        <td>33.</td>
+      </tr>
+      <tr>
+        <td scope="row">2013</td>
+        <td>drieënvijftig.</td>
+      </tr>
+      <tr>
+        <td scope="row">2014</td>
+        <td>zestig.</td>
+      </tr>
+      <tr>
+        <td scope="row">2015</td>
+        <td>74</td>
+      </tr>
+      <tr>
+        <td scope="row">2016</td>
+        <td>achtenzeventig</td>
+      </tr>
     </table>
-</body>
+    <h3>Samenvatting van de tabel</h3>
+    <p>Uit de tabel is op te maken dat vanaf 2011 de toegankelijkheid van websites een steeds grotere rol begon te krijgen binnen de overheid. Zo is er significante stijging te zien van 18 naar 33 procent.</p>
+    <p>Gemiddelde stijging per jaar: 9 procent.</p>
+  </body>
 </html>

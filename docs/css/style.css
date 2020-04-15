@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 30rem;
+    margin-top: 3rem;
+}
+p{
+    max-width: 30rem;
+}
+caption{
+    max-width: 25rem;
+}
+tr{
+    border-bottom: #fff 1px solid;
+}
+tr:nth-child(even){
+    background-color: rgb(48, 48, 48);
+}
+th{
+    text-align: left;
+    /* border-bottom: #fff 1px solid; */
+}
+td{
+    padding: .3rem;
+    border-right: 1px solid #fff;
+}
