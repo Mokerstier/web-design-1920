@@ -96,3 +96,7 @@ Disabillity
 Empathize - Define - Ideate - Prototype - Test
 - Think with us!
 - Design with us!
+
+### Research accessibility.nl
+Stukje over tabellen en accessibility
+https://www.accessibility.nl/kennisbank/artikelen/toegankelijke-datatabellen
