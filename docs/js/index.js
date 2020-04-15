@@ -1,4 +1,4 @@
-
+const digiTable = document.getElementById('digid')
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
 
@@ -31,8 +31,8 @@ function drawChart() {
     var selectedItem = chart.getSelection()[0];
     if (selectedItem) {
       var dataPoint = data.getValue(selectedItem.row, 1);
-      
-      alert('The user selected ' + dataPoint);
+      digiTable.scrollIntoView()
+      //alert('The user selected ' + dataPoint);
     }
   }
 
@@ -40,8 +40,6 @@ function drawChart() {
   chart.draw(data, options);
 }
 
-const DigID = document.querySelector('path')
-console.log(DigID)
 
 const tableHeads = document.querySelectorAll('th')
 const tableData = document.querySelectorAll('td')
