@@ -2,6 +2,25 @@ body{
     background-color: rgb(31, 31, 31);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5rem;
+}
+*{
+    margin: auto;
+}
+h1{
+    max-width: 30rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+h3{
+    max-width: 30rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+ul{
+    margin-top: 3rem;
+    max-width: 30rem;
 }
 table{
     border-collapse: collapse;
@@ -13,6 +32,8 @@ p{
 }
 caption{
     max-width: 25rem;
+    margin-bottom: 2rem;
+    text-align: left;
 }
 tr{
     border-bottom: #fff 1px solid;

@@ -17,15 +17,21 @@ function drawChart() {
   var options = {
     title: 'Toegankelijkheid',
     curveType: 'function',
-    legend: { position: 'bottom' }
+    legend: { position: 'bottom' },
+    lineWidth: 5,
+    series: {
+      0: { lineDashStyle: [10, 2] },
+      1: { lineDashStyle: [2, 2] },
+    }
   };
 
   var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-  
+  console.log(chart.getSelection())
   function selectHandler() {
     var selectedItem = chart.getSelection()[0];
     if (selectedItem) {
-      var dataPoint = data.getValue(selectedItem.row, 0);
+      var dataPoint = data.getValue(selectedItem.row, 1);
+      
       alert('The user selected ' + dataPoint);
     }
   }
@@ -33,6 +39,9 @@ function drawChart() {
   google.visualization.events.addListener(chart, 'select', selectHandler); 
   chart.draw(data, options);
 }
+
+const DigID = document.querySelector('path')
+console.log(DigID)
 
 const tableHeads = document.querySelectorAll('th')
 const tableData = document.querySelectorAll('td')
