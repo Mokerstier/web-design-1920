@@ -35,6 +35,7 @@ form.addEventListener("submit", (e) => {
       }
       if(data.categories.accessibility.score <= 0.7){
         message = 'Dit is een waardeloze website!'
+        neg.classList.remove('display-none')
         tip.className = 'red'
       }
       tip.innerText = message
