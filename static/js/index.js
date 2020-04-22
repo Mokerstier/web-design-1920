@@ -42,12 +42,14 @@ form.addEventListener("submit", (e) => {
       entries.forEach((element) => {
           if (element[1].score == 0){
               console.log(element[1].score)
+            const improv = document.createElement('h4')
             const container = document.createElement("div");
             const audit = document.createElement("h3");
             const desc = document.createElement("p");
             audit.innerText = element[1].id;
             desc.innerHTML = element[1].description;
-    
+            improv.innerText = 'Verbeterpunten:'
+            container.append(improv)
             container.append(audit);
             container.append(desc);
             results.append(container);

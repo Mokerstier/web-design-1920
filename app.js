@@ -27,7 +27,7 @@ const opts = {
 };
 
 // Usage:
-
+const PORT = process.env.PORT
 const app = express();
 
 app
@@ -52,6 +52,6 @@ app
     });
   })
 
-  .listen(3000, () => {
+  .listen(PORT || 3000, () => {
     console.log("Listnening in on http://localhost:3000");
   });
