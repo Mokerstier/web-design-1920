@@ -2,6 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const ally = require('./lighthouse-config.json')
+const fs = require('fs')
+const jsonFile = 'data/tests.json'
+
 require("dotenv").config();
 
 const lighthouse = require("lighthouse");
@@ -30,23 +33,59 @@ const opts = {
 const PORT = process.env.PORT
 const app = express();
 
+function updateData(content) {
+
+    fs.writeFile(jsonFile, JSON.stringify(content, null, 2), err => {
+        if (err) console.log(err)
+    })
+
+}
+
 app
   .use(urlencodedParser)
   .use(express.static(__dirname + "/static"))
   .use(express.json())
   .set("view engine", "ejs");
 app
+
   .get("/:url", (req, res, next) => {
-      console.log('https://'+req.params.url)
+      console.log(req.params)
       const url = req.params.url
-    launchChromeAndRunLighthouse('https://'+url, opts, ally).then(
-      (results) => {
-          console.log(results)
-        res.send(results);
+      if(url.startsWith('http')){
+        launchChromeAndRunLighthouse(url, opts, ally).then(
+            (results) => {
+              fs.readFile(jsonFile, (err, content) => {
+                  if (err) return console.log(err)
+                  const contentJSON = JSON.parse(content)
+                    const dataObject = results.
+                  contentJSON.tests.push(results)
+      
+                  updateData(contentJSON)
+                  
+              })
+              res.send(results);
+            }
+          );
+      } else {
+        launchChromeAndRunLighthouse('https://'+url, opts, ally).then(
+            (results) => {
+              fs.readFile(jsonFile, (err, content) => {
+                  if (err) return console.log(err)
+                  const contentJSON = JSON.parse(content)
+      
+                  contentJSON.tests.push(results)
+      
+                  updateData(contentJSON)
+                  
+              })
+              res.send(results);
+            }
+          );
       }
-    );
+    
   })
   .get("/", (req, res) => {
+      console.log(req.params.url)
     res.render("pages/home.ejs", {
       title: "Home",
     });
