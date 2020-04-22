@@ -23,7 +23,7 @@ function launchChromeAndRunLighthouse(url, opts, config = null) {
 }
 
 const opts = {
-  chromeFlags: ["--show-paint-rects"],
+  chromeFlags: ['--headless', '--disable-gpu'],
 };
 
 // Usage:
