@@ -2,6 +2,8 @@ const form = document.querySelector("form");
 const input = document.querySelector("input");
 const results = document.querySelector(".results");
 const load = document.querySelector('img')
+const pos = document.getElementById('positive')
+const neg = document.getElementById('negative')
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -23,6 +25,8 @@ form.addEventListener("submit", (e) => {
 
       if(data.categories.accessibility.score >= 0.9){
         message = 'Dat is best een goede score!'
+        
+        pos.classList.remove('display-none')
         tip.className = 'green'
       }
       if(data.categories.accessibility.score <= 0.9){

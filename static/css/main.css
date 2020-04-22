@@ -47,6 +47,9 @@ a:visited{
 img{
     width: 100%;
 }
+embed{
+    visibility: hidden;
+}
 .display-none{
     display: none;
 }
