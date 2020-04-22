@@ -28,15 +28,18 @@ form.addEventListener("submit", (e) => {
         
         pos.classList.remove('display-none')
         tip.className = 'green'
+        headerScore.className = 'green'
       }
       if(data.categories.accessibility.score <= 0.9){
         message = 'Dat moet echt wel even beter!'
         tip.className = 'orange'
+        headerScore.className = 'orange'
       }
       if(data.categories.accessibility.score <= 0.7){
         message = 'Dit is een waardeloze website!'
         neg.classList.remove('display-none')
         tip.className = 'red'
+        headerScore.className = 'red'
       }
       tip.innerText = message
       headerTitle.innerHTML = `${data.categories.accessibility.title} <a href="${data.finalUrl}">${data.finalUrl}</a>`
