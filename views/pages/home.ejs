@@ -14,13 +14,17 @@
         Om te beginnen plaats een URL in de zoekbalk en 'Doe test'.</p>
 
         <form action="#" method="get">
-            <label for="url">Plaats een url
+            <label for="url">Plaats een url</label>
+            <div class="search-container">
                 <input name="url" type="text" required placeholder="example.com"><button type="submit">Doe test!</button>
-            </label>
+            </div>
         </form>
     </main>
-    <section class="results">
-        <img class="display-none" src="img/giphy.gif" alt="moving wheelchair">
+    <section class="results-container">
+        <div class="img-container">
+            <img class="display-none" src="img/giphy.gif" alt="moving wheelchair">
+        </div>
+        <div class="results"></div>
     </section>
     
     <embed class="display-none" id="positive" autoplay controls type="audio/mpeg" src="sounds/applause.mp3" />

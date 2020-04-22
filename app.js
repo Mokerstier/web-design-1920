@@ -48,7 +48,7 @@ app
   .set("view engine", "ejs");
 app
 
-  .get("/:url", (req, res, next) => {
+  .get("/test/:url", (req, res, next) => {
       console.log(req.params)
       const url = req.params.url
       if(url.startsWith('http')){
@@ -85,7 +85,6 @@ app
     
   })
   .get("/", (req, res) => {
-      console.log(req.params.url)
     res.render("pages/home.ejs", {
       title: "Home",
     });
