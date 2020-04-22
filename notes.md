@@ -100,3 +100,25 @@ Empathize - Define - Ideate - Prototype - Test
 ### Research accessibility.nl
 Stukje over tabellen en accessibility
 https://www.accessibility.nl/kennisbank/artikelen/toegankelijke-datatabellen
+
+## Test met video (Simone)
+Heldere uitleg, het stoppen was lastig, grafiek was best wel duidelijk.
+
+interressante informatie:
+- trends in duurzame energie
+
+## Test met geluid en bar-chart (Nick)
+
+Leuk met geluid
+
+## Test Grafiek met tabel
+
+- Samenvatting vooraf aan de tabel
+- Goed idee om de lijn van de grafiek uit te zetten in een tabel
+- Nog wel wat haken en ogen met de screen reader en de tabindex.
+
+## 
+
+Meerdere tabellen? (show/unshow)
+Spraak stop commando?
+Custom screen reader voor tabel

@@ -1,0 +1,36 @@
+{
+  "name": "web-design-1920",
+  "version": "1.0.0",
+  "description": "testing websites on accesability",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mokerstier/web-design-1920.git"
+  },
+  "keywords": [
+    "accesability",
+    "web-sites",
+    "audit"
+  ],
+  "author": "Wouter van der Heijde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mokerstier/web-design-1920/issues"
+  },
+  "homepage": "https://github.com/Mokerstier/web-design-1920#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "lighthouse": "^5.6.0",
+    "nodemon": "^2.0.3"
+  }
+}
