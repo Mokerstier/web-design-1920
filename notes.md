@@ -184,5 +184,35 @@ Tip: Jammer dat de dropdown (maanden) niet is gestyled zo dat hij beter te zien 
 Top: Clean interfeesje (pun intended)
 
 #### Robert
-Tip: Goed nagedacht over de verschillende HTML elementen
+Tip: 
+Top: Goed nagedacht over de verschillende HTML elementen
+
+### Team Marijn
+
+#### Daniel
+Tip: 
+Top: Lekker snelle presentatie duidelijk verhaal
+
+#### Lien
+Tip:
 Top: 
+
+#### Mees
+Tip:
+Top:
+
+#### Kevin
+Tip:
+Top:
+
+#### Marjolein
+Tip:
+Top:
+
+#### Randy
+Tip:
+Top: Leuke interface CLI like
+
+#### Rick
+Tip:
+Top:
