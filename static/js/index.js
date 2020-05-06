@@ -6,9 +6,6 @@ const load = document.querySelector("img");
 const pos = document.getElementById("positive");
 const neg = document.getElementById("negative");
 
-function saveData(){
-  
-}
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();

@@ -125,21 +125,21 @@ Custom screen reader voor tabel
 
 
 ### Tips en tops?
-Team Marie:
-##### Gijs
+### Team Marie:
+#### Gijs
 - Goede intro, goed verhaal
 - 
 
-##### Mohammad
+#### Mohammad
 Tip ik vond de tekst persoonlijk heel snel gaan
 
-##### Tim
+#### Tim
 
 
-##### Marissa
+#### Marissa
 Hele vette illustraties!
 
-##### Joan
+#### Joan
 Duidelijk verhaal lekker kort ook
 
 #### Coen
@@ -153,7 +153,7 @@ Vet gedaan ook de eerste die ik zie die verschillende kleur gebruikt om personen
 #### Gio
 
 
-Team Larissa
+### Team Larissa
 
 #### Kyle
 lekker korte presentatie
@@ -165,3 +165,24 @@ Heel goed gedaan met die pijltjes toetsen slim!
 Mooie simpele interface zeer duidelijk met die verschillende kleuren!
 
 #### Stefan
+
+#### Jennifer
+Top: Leuk bedacht met die fiets-scroll-bar
+
+Tip: Erg veel wit in mijn face doet bijna zeer aan mijn ogen 
+
+#### Damian
+Tip: je mag iets rustiger praten (misschien zenuwen?)
+Top: Mooi met contrast te werken
+
+#### Thomas
+Tip: 
+Top: Slim onderzoekje gedaan naar die list items
+
+#### Lars
+Tip: Jammer dat de dropdown (maanden) niet is gestyled zo dat hij beter te zien is
+Top: Clean interfeesje (pun intended)
+
+#### Robert
+Tip: Goed nagedacht over de verschillende HTML elementen
+Top: 
