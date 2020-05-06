@@ -25,7 +25,7 @@ form.addEventListener("submit", (e) => {
       const save = document.createElement('button')
       save.className = 'save-button'
       save.innerText = 'opslaan'
-      save.addEventListener('click', saveData())
+
       const headerTitle = document.createElement("h2");
       const headerScore = document.createElement("h2");
       const tip = document.createElement("p");

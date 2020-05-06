@@ -43734,6 +43734,2122 @@
         }
       },
       "stackPacks": []
+    },
+    {
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36",
+      "environment": {
+        "networkUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "hostUserAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/81.0.4044.138 Safari/537.36",
+        "benchmarkIndex": 1144
+      },
+      "lighthouseVersion": "5.6.0",
+      "fetchTime": "2020-05-06T09:14:03.694Z",
+      "requestedUrl": "https://nu.nl/",
+      "finalUrl": "https://www.nu.nl/",
+      "runWarnings": [],
+      "audits": {
+        "accesskeys": {
+          "id": "accesskeys",
+          "title": "`[accesskey]` values are unique",
+          "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "aria-allowed-attr": {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes match their roles",
+          "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-required-attr": {
+          "id": "aria-required-attr",
+          "title": "`[role]`s have all required `[aria-*]` attributes",
+          "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-required-parent": {
+          "id": "aria-required-parent",
+          "title": "`[role]`s are contained by their required parent element",
+          "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-roles": {
+          "id": "aria-roles",
+          "title": "`[role]` values are valid",
+          "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-valid-attr-value": {
+          "id": "aria-valid-attr-value",
+          "title": "`[aria-*]` attributes do not have valid values",
+          "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "itemType": "node",
+                "text": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-62ea956fb46f4813b46572ea7237a681 > .block-content > .menu-toolbar > .component_container[data-component=\"theme_switch\"][data-context=\"\\{\\}\"] > .theme-switch > .svg-icon[data-v-3a89f969=\"\"] > svg[aria-labelledby=\"Wissel\\ kleurenschema\"]",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,1,DIV,0,DIV,0,BUTTON,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Wissel kleurenschema\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Wissel kleurenschema\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-62ea956fb46f4813b46572ea7237a681 > .block-content > .menu-toolbar > .component_container[data-component=\"account_component\"][data-context=\"\\{\\}\"] > .account.btn[data-v-e662fc72=\"\"] > .accountimage[data-v-e662fc72=\"\"] > .svg-icon[data-v-e662fc72=\"\"] > svg[aria-labelledby=\"Account\\ avatar\"]",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Account avatar\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Account avatar\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-62ea956fb46f4813b46572ea7237a681 > .block-content > .menu-toolbar > .component_container[data-component=\"account_component\"][data-context=\"\\{\\}\"] > .account.btn[data-v-e662fc72=\"\"] > .svg-icon[data-v-e662fc72=\"\"] > svg[aria-labelledby=\"Pijltje\\ beneden\"]",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,1,DIV,3,DIV,0,DIV,3,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje beneden\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje beneden\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "svg[aria-labelledby=\"Huidige\\ weersituatie\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Huidige weersituatie\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Huidige weersituatie\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[data-trackeventlabel=\"weather\"] > .widget-list__title[data-v-192b76c8=\"\"] > .svg-icon--marker.svg-icon[data-v-192b76c8=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,0,LI,0,A,2,DIV,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "svg[aria-labelledby=\"Huidige\\ verkeerssituatie\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,1,LI,0,A,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Huidige verkeerssituatie\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Huidige verkeerssituatie\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[data-trackeventlabel=\"traffic\"] > .widget-list__title[data-v-192b76c8=\"\"] > .svg-icon--marker.svg-icon[data-v-192b76c8=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,1,LI,0,A,2,DIV,3,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "svg[aria-labelledby=\"Beurs\\ aandelen\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,LI,0,A,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Beurs aandelen\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Beurs aandelen\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[data-trackeventlabel=\"stock\"] > .widget-list__title[data-v-192b76c8=\"\"] > .svg-icon--marker.svg-icon[data-v-192b76c8=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,LI,0,A,2,DIV,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "svg[aria-labelledby=\"TV\\ Gids\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,3,LI,0,A,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"TV Gids\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"TV Gids\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[data-trackeventlabel=\"tvguide\"] > .widget-list__title[data-v-192b76c8=\"\"] > .svg-icon--marker.svg-icon[data-v-192b76c8=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,3,LI,0,A,1,DIV,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "svg[aria-labelledby=\"Voetbal\\ wedstrijden\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Voetbal wedstrijden\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Voetbal wedstrijden\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[data-trackeventlabel=\"sports\"] > .widget-list__title[data-v-192b76c8=\"\"] > .svg-icon--marker.svg-icon[data-v-192b76c8=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,LI,0,A,2,DIV,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--thumb[index=\"\\33 \"][data-v-282a61a6=\"\"] > .list__link[data-type=\"video\"] > .item-thumb > figcaption > .svg-icon > svg[aria-labelledby=\"Dit\\ is\\ een\\ videoitem\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,UL,12,LI,0,A,0,FIGURE,1,FIGCAPTION,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Dit is een videoitem\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Dit is een videoitem\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "svg[aria-labelledby=\"Dit\\ is\\ een\\ audioitem\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,UL,15,LI,0,A,0,FIGURE,1,FIGCAPTION,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Dit is een audioitem\" role=\"presentation\" data-v-682d3a76=\"\"><title lang=\"nl\" data-v-682d3a76=\"\">Dit is een audioitem</title><g data-v-682d3a76=\"\"></g></svg>",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Dit is een audioitem\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"algemeen\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href=\"\\/uitleg-over-het-coronavirus\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"uit\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398717 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(1) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,1,DIV,0,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398717 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(2) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,1,DIV,1,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398717 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(3) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,1,DIV,2,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398717 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(4) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,1,DIV,3,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"economie\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,12,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--thumb[index=\"\\35 \"][data-v-282a61a6=\"\"] > .list__link[data-type=\"video\"] > .item-thumb > figcaption > .svg-icon > svg[aria-labelledby=\"Dit\\ is\\ een\\ videoitem\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,16,DIV,0,DIV,0,DIV,1,UL,13,LI,0,A,0,FIGURE,1,FIGCAPTION,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Dit is een videoitem\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Dit is een videoitem\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"sport\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,16,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--thumb[index=\"\\31 \"][data-v-282a61a6=\"\"] > .list__link[data-type=\"video\"] > .item-thumb > figcaption > .svg-icon > svg[aria-labelledby=\"Dit\\ is\\ een\\ videoitem\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,20,DIV,0,DIV,0,DIV,1,UL,9,LI,0,A,0,FIGURE,1,FIGCAPTION,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Dit is een videoitem\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Dit is een videoitem\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"tech\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,20,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--thumb[index=\"\\32 \"][data-v-282a61a6=\"\"] > .list__link[data-type=\"video\"] > .item-thumb > figcaption > .svg-icon > svg[aria-labelledby=\"Dit\\ is\\ een\\ videoitem\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,23,DIV,0,DIV,0,DIV,1,UL,6,LI,0,A,0,FIGURE,1,FIGCAPTION,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Dit is een videoitem\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Dit is een videoitem\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"entertainment\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,23,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"achterklap\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,26,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"klimaat\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,29,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"werk\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,31,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398720 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(1) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,0,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398720 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(2) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,1,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398720 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(3) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,2,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-398720 > .videolist.grid.block > .block-wrapper > .even.row_count_1.block-content > .video-item.molecule-video-list-item.item:nth-child(4) > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,3,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".video-item.molecule-video-list-item[index=\"\\34 \"] > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,4,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".video-item.molecule-video-list-item[index=\"\\35 \"] > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,5,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".video-item.molecule-video-list-item[index=\"\\36 \"] > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,6,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".video-item.molecule-video-list-item[index=\"\\37 \"] > .media-wrapper > .media-icon > .svg-icon > svg[aria-labelledby=\"Video\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,35,DIV,0,DIV,0,DIV,1,DIV,7,A,0,DIV,2,DIV,0,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Video\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Video\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"nushop\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,38,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-397523 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\30 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-397523 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\31 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-397523 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\32 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--timestamp.list__item[index=\"\\33 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-402146 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\30 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-402146 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\31 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-402146 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\32 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--timestamp.list__item[index=\"\\33 \"] > .list__link[data-type=\"video\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"net-binnen\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--rank.list__item[index=\"\\30 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--rank.list__item[index=\"\\31 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--rank.list__item[index=\"\\32 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--rank.list__item[index=\"\\33 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--rank.list__item[index=\"\\34 \"] > .list__link[data-type=\"article\"] > .item-marker.svg-icon > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,1,UL,4,LI,0,A,2,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"meest-gelezen\"] > .block-more__icon.svg-icon[data-v-c1017efe=\"\"] > svg[aria-labelledby=\"Pijltje\\ rechts\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,3,DIV,0,A,1,I,0,svg",
+                  "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-labelledby=\"Pijltje rechts\" role=\"presentation\" data-v-682d3a76=\"\">",
+                  "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-labelledby=\"Pijltje rechts\"",
+                  "nodeLabel": "svg"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "critical",
+              "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+              ]
+            }
+          }
+        },
+        "audio-caption": {
+          "id": "audio-caption",
+          "title": "`<audio>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+          "description": "Captions make audio elements usable for deaf or hearing-impaired users, providing critical information such as who is talking, what they're saying, and other non-speech information. [Learn more](https://web.dev/audio-caption/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "button-name": {
+          "id": "button-name",
+          "title": "Buttons have an accessible name",
+          "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "bypass": {
+          "id": "bypass",
+          "title": "The page contains a heading, skip link, or landmark region",
+          "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "color-contrast": {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "itemType": "node",
+                "text": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".current",
+                  "path": "1,HTML,1,BODY,4,DIV,0,NAV,0,DIV,0,DIV,2,UL,8,LI,0,A",
+                  "snippet": "<a title=\"voorpagina\" href=\"/\" class=\"current\">\n        Voorpagina\n    </a>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #979797, background color: #ffffff, font size: 8.9pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Voorpagina"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[title=\"Meest\\ recent\"]",
+                  "path": "1,HTML,1,BODY,4,DIV,0,NAV,0,DIV,0,DIV,2,UL,9,LI,0,A",
+                  "snippet": "<a title=\"Meest recent\" href=\"/net-binnen\">\n        Net binnen\n    </a>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #979797, background color: #ffffff, font size: 8.9pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Net binnen"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "a[title=\"Meest\\ gelezen\"]",
+                  "path": "1,HTML,1,BODY,4,DIV,0,NAV,0,DIV,0,DIV,2,UL,10,LI,0,A",
+                  "snippet": "<a title=\"Meest gelezen\" href=\"/meest-gelezen\">\n        Populair\n    </a>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #979797, background color: #ffffff, font size: 8.9pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Populair"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".more",
+                  "path": "1,HTML,1,BODY,4,DIV,0,NAV,0,DIV,0,DIV,2,UL,11,LI,0,A,0,SPAN",
+                  "snippet": "<span class=\"more\">Meer</span>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #979797, background color: #ffffff, font size: 8.9pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Meer"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-title2__link[href$=\"uit\"][data-v-95430eb6=\"\"] > .block-title2__title[data-v-95430eb6=\"\"]",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV,0,A,0,H2",
+                  "snippet": "<h2 class=\"block-title2__title\" style=\"color: var(--color-button-one);\" data-v-95430eb6=\"\">Thuis</h2>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #ffffff, background color: #2a9198, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Thuis"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"uit\"] > .block-more__title",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,3,DIV,0,A,0,STRONG",
+                  "snippet": "<strong class=\"block-more__title\" data-v-c1017efe=\"\">meer Thuis</strong>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #2a9198, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Meer Thuis"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".section-bgcolored.block-title[href$=\"entertainment\"] > h2",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,22,DIV,0,A,0,H2",
+                  "snippet": "<h2>Media en Cultuur</h2>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #ed893c, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Media en Cultuur"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".block-more__link.trackevent[href$=\"entertainment\"] > .block-more__title",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,23,DIV,0,DIV,0,DIV,3,DIV,0,A,0,STRONG",
+                  "snippet": "<strong class=\"block-more__title\" data-v-c1017efe=\"\">meer Media en Cultuur</strong>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ed893c, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Meer Media en Cultuur"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-397523 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\30 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">11:11</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "11:11"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-397523 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\31 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:56</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:56"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-397523 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\32 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:50</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:50"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__item--timestamp.list__item[index=\"\\33 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:39</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:39"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-402146 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\30 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,0,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:37</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:37"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-402146 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\31 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,1,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:32</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:32"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-402146 > .list[data-source=\"latest\"][data-section=\"\"] > .timestamp[data-v-20cc726a=\"\"] > .list--timestamp[media_aspectratio=\"std\"][media_size=\"\\33 20\"] > .list__item--timestamp.list__item[index=\"\\32 \"] > .list__link[data-type=\"article\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,2,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:13</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:13"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".list__link[data-type=\"video\"] > time",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,1,UL,3,LI,0,A,0,TIME",
+                  "snippet": "<time class=\"item-datetime\">10:05</time>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "10:05"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".space-saving > .item_nuuit.nav_item > a[href$=\"entertainment\"]",
+                  "path": "1,HTML,1,BODY,8,DIV,0,FOOTER,0,NAV,0,UL,4,LI,0,A",
+                  "snippet": "<a href=\"/entertainment\">Media en Cultuur</a>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ed893c, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Media en Cultuur"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".space-saving > .item_nuoverig.nav_item > a[href$=\"overig\"]",
+                  "path": "1,HTML,1,BODY,8,DIV,0,FOOTER,0,NAV,0,UL,5,LI,0,A",
+                  "snippet": "<a href=\"/overig\">Overig</a>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.74 (foreground color: #2a9198, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "Overig"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".copyright_text",
+                  "path": "1,HTML,1,BODY,8,DIV,0,FOOTER,1,DIV,2,DIV,0,P",
+                  "snippet": "<p class=\"copyright_text\">\n                © 2020 DPG Media Digital B.V.<br> | NU.nl onderdeel van <a href=\"https://www.dpgmediamagazines.nl\" target=\"_blank\">DPG Media Magazines groep</a>\n            </p>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "© 2020 DPG Media Digital B.V.\n| NU.nl onderdeel van DPG Media Magazines groep"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "selector": ".copyright_text > a[target=\"_blank\"]",
+                  "path": "1,HTML,1,BODY,8,DIV,0,FOOTER,1,DIV,2,DIV,0,P,3,A",
+                  "snippet": "<a href=\"https://www.dpgmediamagazines.nl\" target=\"_blank\">DPG Media Magazines groep</a>",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #878787, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                  "nodeLabel": "DPG Media Magazines groep"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+              ]
+            }
+          }
+        },
+        "definition-list": {
+          "id": "definition-list",
+          "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>` or `<template>` elements.",
+          "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "dlitem": {
+          "id": "dlitem",
+          "title": "Definition list items are wrapped in `<dl>` elements",
+          "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "document-title": {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "duplicate-id": {
+          "id": "duplicate-id",
+          "title": "`[id]` attributes on the page are unique",
+          "description": "The value of an id attribute must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "frame-title": {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements have a title",
+          "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "html-has-lang": {
+          "id": "html-has-lang",
+          "title": "`<html>` element has a `[lang]` attribute",
+          "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "html-lang-valid": {
+          "id": "html-lang-valid",
+          "title": "`<html>` element has a valid value for its `[lang]` attribute",
+          "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "input-image-alt": {
+          "id": "input-image-alt",
+          "title": "`<input type=\"image\">` elements have `[alt]` text",
+          "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "layout-table": {
+          "id": "layout-table",
+          "title": "Presentational `<table>` elements avoid using `<th>`, `<caption>` or the `[summary]` attribute.",
+          "description": "A table being used for layout purposes should not include data elements, such as the th or caption elements or the summary attribute, because this can create a confusing experience for screen reader users. [Learn more](https://web.dev/layout-table/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "link-name": {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "itemType": "node",
+                "text": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "selector": "#block-424298 > .block-wrapper > .block-content > .block-image > a",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,ASIDE,0,DIV,0,DIV,15,DIV,0,DIV,0,DIV,0,DIV,0,A",
+                  "snippet": "<a href=\"https://www.nu.nl/advertorial/advertorial-startpaginanl/6041369/waarom-nu-het-juiste-moment-is-om-je-tuin-zomerklaar-te-maken.html\">",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+                  "nodeLabel": "img"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "wcag244",
+                "section508",
+                "section508.22.a"
+              ]
+            }
+          }
+        },
+        "list": {
+          "id": "list",
+          "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "meta-refresh": {
+          "id": "meta-refresh",
+          "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+          "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "meta-viewport": {
+          "id": "meta-viewport",
+          "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+          "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "object-alt": {
+          "id": "object-alt",
+          "title": "`<object>` elements have `[alt]` text",
+          "description": "Screen readers cannot translate non-text content. Adding alt text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "tabindex": {
+          "id": "tabindex",
+          "title": "No element has a `[tabindex]` value greater than 0",
+          "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "td-headers-attr": {
+          "id": "td-headers-attr",
+          "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+          "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "th-has-data-cells": {
+          "id": "th-has-data-cells",
+          "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+          "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "valid-lang": {
+          "id": "valid-lang",
+          "title": "`[lang]` attributes have a valid value",
+          "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "video-caption": {
+          "id": "video-caption",
+          "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+          "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        },
+        "video-description": {
+          "id": "video-description",
+          "title": "`<video>` elements contain a `<track>` element with `[kind=\"description\"]`",
+          "description": "Audio descriptions provide relevant information for videos that dialogue cannot, such as facial expressions and scenes. [Learn more](https://web.dev/video-description/).",
+          "score": null,
+          "scoreDisplayMode": "notApplicable"
+        }
+      },
+      "configSettings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "auditMode": false,
+        "gatherMode": false,
+        "disableStorageReset": false,
+        "emulatedFormFactor": "mobile",
+        "channel": "node",
+        "budgets": null,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": [
+          "accesskeys",
+          "aria-allowed-attr",
+          "aria-required-attr",
+          "aria-required-parent",
+          "aria-required-childres",
+          "aria-roles",
+          "aria-valid-attr-value",
+          "audio-caption",
+          "button-name",
+          "bypass",
+          "color-contrast",
+          "definition-list",
+          "dlitem",
+          "document-title",
+          "duplicate-id",
+          "frame-title",
+          "html-has-lang",
+          "html-lang-valid",
+          "image-alt",
+          "input-image-alt",
+          "lable",
+          "layout-table",
+          "link-name",
+          "list",
+          "list-item",
+          "meta-refresh",
+          "meta-viewport",
+          "object-alt",
+          "tabindex",
+          "td-headers-attr",
+          "th-has-data-cells",
+          "valid-lang",
+          "video-caption",
+          "video-description"
+        ],
+        "onlyCategories": [
+          "Accessibility"
+        ],
+        "skipAudits": null,
+        "crawler": {
+          "maxDepth": 1,
+          "maxChromeInstances": 5
+        }
+      },
+      "categories": {
+        "accessibility": {
+          "title": "Accessibility",
+          "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+          "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+          "auditRefs": [
+            {
+              "id": "accesskeys",
+              "weight": 0,
+              "group": "a11y-navigation"
+            },
+            {
+              "id": "aria-allowed-attr",
+              "weight": 10,
+              "group": "a11y-aria"
+            },
+            {
+              "id": "aria-required-attr",
+              "weight": 10,
+              "group": "a11y-aria"
+            },
+            {
+              "id": "aria-required-parent",
+              "weight": 10,
+              "group": "a11y-aria"
+            },
+            {
+              "id": "aria-roles",
+              "weight": 10,
+              "group": "a11y-aria"
+            },
+            {
+              "id": "aria-valid-attr-value",
+              "weight": 10,
+              "group": "a11y-aria"
+            },
+            {
+              "id": "audio-caption",
+              "weight": 0,
+              "group": "a11y-audio-video"
+            },
+            {
+              "id": "button-name",
+              "weight": 10,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "bypass",
+              "weight": 3,
+              "group": "a11y-navigation"
+            },
+            {
+              "id": "color-contrast",
+              "weight": 3,
+              "group": "a11y-color-contrast"
+            },
+            {
+              "id": "definition-list",
+              "weight": 0,
+              "group": "a11y-tables-lists"
+            },
+            {
+              "id": "dlitem",
+              "weight": 0,
+              "group": "a11y-tables-lists"
+            },
+            {
+              "id": "document-title",
+              "weight": 3,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "duplicate-id",
+              "weight": 1,
+              "group": "a11y-best-practices"
+            },
+            {
+              "id": "frame-title",
+              "weight": 0,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "html-has-lang",
+              "weight": 3,
+              "group": "a11y-language"
+            },
+            {
+              "id": "html-lang-valid",
+              "weight": 3,
+              "group": "a11y-language"
+            },
+            {
+              "id": "image-alt",
+              "weight": 10,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "input-image-alt",
+              "weight": 0,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "layout-table",
+              "weight": 0,
+              "group": "a11y-tables-lists"
+            },
+            {
+              "id": "link-name",
+              "weight": 3,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "list",
+              "weight": 3,
+              "group": "a11y-tables-lists"
+            },
+            {
+              "id": "meta-refresh",
+              "weight": 0,
+              "group": "a11y-best-practices"
+            },
+            {
+              "id": "meta-viewport",
+              "weight": 10,
+              "group": "a11y-best-practices"
+            },
+            {
+              "id": "object-alt",
+              "weight": 0,
+              "group": "a11y-names-labels"
+            },
+            {
+              "id": "tabindex",
+              "weight": 0,
+              "group": "a11y-navigation"
+            },
+            {
+              "id": "td-headers-attr",
+              "weight": 0,
+              "group": "a11y-tables-lists"
+            },
+            {
+              "id": "th-has-data-cells",
+              "weight": 0,
+              "group": "a11y-tables-lists"
+            },
+            {
+              "id": "valid-lang",
+              "weight": 3,
+              "group": "a11y-language"
+            },
+            {
+              "id": "video-caption",
+              "weight": 0,
+              "group": "a11y-audio-video"
+            },
+            {
+              "id": "video-description",
+              "weight": 0,
+              "group": "a11y-audio-video"
+            }
+          ],
+          "id": "accessibility",
+          "score": 0.85
+        },
+        "seo": {
+          "title": "SEO",
+          "description": "These checks ensure that your page is optimized for search engine results ranking. There are additional factors Lighthouse does not check that may affect your search ranking. [Learn more](https://support.google.com/webmasters/answer/35769).",
+          "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+          "auditRefs": [
+            {
+              "id": "document-title",
+              "weight": 1,
+              "group": "seo-content"
+            },
+            {
+              "id": "image-alt",
+              "weight": 1,
+              "group": "seo-content"
+            }
+          ],
+          "id": "seo",
+          "score": 1
+        }
+      },
+      "categoryGroups": {
+        "metrics": {
+          "title": "Metrics"
+        },
+        "load-opportunities": {
+          "title": "Opportunities",
+          "description": "These suggestions can help your page load faster. They don't [directly affect](https://github.com/GoogleChrome/lighthouse/blob/d2ec9ffbb21de9ad1a0f86ed24575eda32c796f0/docs/scoring.md#how-are-the-scores-weighted) the Performance score."
+        },
+        "budgets": {
+          "title": "Budgets",
+          "description": "Performance budgets set standards for the performance of your site."
+        },
+        "diagnostics": {
+          "title": "Diagnostics",
+          "description": "More information about the performance of your application. These numbers don't [directly affect](https://github.com/GoogleChrome/lighthouse/blob/d2ec9ffbb21de9ad1a0f86ed24575eda32c796f0/docs/scoring.md#how-are-the-scores-weighted) the Performance score."
+        },
+        "pwa-fast-reliable": {
+          "title": "Fast and reliable"
+        },
+        "pwa-installable": {
+          "title": "Installable"
+        },
+        "pwa-optimized": {
+          "title": "PWA Optimized"
+        },
+        "a11y-best-practices": {
+          "title": "Best practices",
+          "description": "These items highlight common accessibility best practices."
+        },
+        "a11y-color-contrast": {
+          "title": "Contrast",
+          "description": "These are opportunities to improve the legibility of your content."
+        },
+        "a11y-names-labels": {
+          "title": "Names and labels",
+          "description": "These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader."
+        },
+        "a11y-navigation": {
+          "title": "Navigation",
+          "description": "These are opportunities to improve keyboard navigation in your application."
+        },
+        "a11y-aria": {
+          "title": "ARIA",
+          "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
+        },
+        "a11y-language": {
+          "title": "Internationalization and localization",
+          "description": "These are opportunities to improve the interpretation of your content by users in different locales."
+        },
+        "a11y-audio-video": {
+          "title": "Audio and video",
+          "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments."
+        },
+        "a11y-tables-lists": {
+          "title": "Tables and lists",
+          "description": "These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader."
+        },
+        "seo-mobile": {
+          "title": "Mobile Friendly",
+          "description": "Make sure your pages are mobile friendly so users don’t have to pinch or zoom in order to read the content pages. [Learn more](https://developers.google.com/search/mobile-sites/)."
+        },
+        "seo-content": {
+          "title": "Content Best Practices",
+          "description": "Format your HTML in a way that enables crawlers to better understand your app’s content."
+        },
+        "seo-crawl": {
+          "title": "Crawling and Indexing",
+          "description": "To appear in search results, crawlers need access to your app."
+        }
+      },
+      "timing": {
+        "entries": [
+          {
+            "startTime": 1446605.1,
+            "name": "lh:init:config",
+            "duration": 441.08,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1446607.97,
+            "name": "lh:config:requireGatherers",
+            "duration": 53.14,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1446661.24,
+            "name": "lh:config:requireAudits",
+            "duration": 376.62,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447046.85,
+            "name": "lh:runner:run",
+            "duration": 6693.21,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447048.97,
+            "name": "lh:init:connect",
+            "duration": 18.67,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447067.79,
+            "name": "lh:gather:loadBlank",
+            "duration": 87.73,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447155.77,
+            "name": "lh:gather:getVersion",
+            "duration": 0.52,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447156.72,
+            "name": "lh:gather:getBenchmarkIndex",
+            "duration": 503.44,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447660.32,
+            "name": "lh:gather:setupDriver",
+            "duration": 21.84,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447682.43,
+            "name": "lh:gather:loadBlank",
+            "duration": 6.73,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447689.28,
+            "name": "lh:gather:setupPassNetwork",
+            "duration": 1.12,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447690.61,
+            "name": "lh:gather:beforePass",
+            "duration": 0.1,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447690.63,
+            "name": "lh:gather:beforePass:Accessibility",
+            "duration": 0.06,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447690.77,
+            "name": "lh:gather:beginRecording",
+            "duration": 0.05,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1447690.98,
+            "name": "lh:gather:loadPage-defaultPass",
+            "duration": 3173.71,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1450864.91,
+            "name": "lh:gather:pass",
+            "duration": 0.08,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1450865.09,
+            "name": "lh:gather:getDevtoolsLog",
+            "duration": 3.72,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1450870.6,
+            "name": "lh:gather:afterPass",
+            "duration": 2637.19,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1450876.22,
+            "name": "lh:gather:afterPass:Accessibility",
+            "duration": 2631.55,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453686.8,
+            "name": "lh:gather:disconnect",
+            "duration": 14.83,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453701.91,
+            "name": "lh:runner:auditing",
+            "duration": 35.26,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453708.97,
+            "name": "lh:audit:accesskeys",
+            "duration": 0.6,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453710.06,
+            "name": "lh:audit:aria-allowed-attr",
+            "duration": 1.46,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453711.85,
+            "name": "lh:audit:aria-required-attr",
+            "duration": 0.8,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453712.96,
+            "name": "lh:audit:aria-required-parent",
+            "duration": 0.63,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453713.86,
+            "name": "lh:audit:aria-roles",
+            "duration": 0.6,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453714.71,
+            "name": "lh:audit:aria-valid-attr-value",
+            "duration": 0.77,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453715.8,
+            "name": "lh:audit:audio-caption",
+            "duration": 0.28,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453716.4,
+            "name": "lh:audit:button-name",
+            "duration": 0.75,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453717.44,
+            "name": "lh:audit:bypass",
+            "duration": 0.63,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453718.33,
+            "name": "lh:audit:color-contrast",
+            "duration": 0.69,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453719.41,
+            "name": "lh:audit:definition-list",
+            "duration": 0.25,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453719.91,
+            "name": "lh:audit:dlitem",
+            "duration": 0.27,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453720.39,
+            "name": "lh:audit:document-title",
+            "duration": 1.01,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453721.78,
+            "name": "lh:audit:duplicate-id",
+            "duration": 0.6,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453722.65,
+            "name": "lh:audit:frame-title",
+            "duration": 0.32,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453723.2,
+            "name": "lh:audit:html-has-lang",
+            "duration": 0.56,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453724.01,
+            "name": "lh:audit:html-lang-valid",
+            "duration": 0.57,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453724.78,
+            "name": "lh:audit:image-alt",
+            "duration": 0.62,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453725.64,
+            "name": "lh:audit:input-image-alt",
+            "duration": 0.35,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453726.27,
+            "name": "lh:audit:layout-table",
+            "duration": 0.37,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453726.86,
+            "name": "lh:audit:link-name",
+            "duration": 0.67,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453727.81,
+            "name": "lh:audit:list",
+            "duration": 0.63,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453728.69,
+            "name": "lh:audit:meta-refresh",
+            "duration": 0.4,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453729.89,
+            "name": "lh:audit:meta-viewport",
+            "duration": 0.59,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453730.75,
+            "name": "lh:audit:object-alt",
+            "duration": 1.33,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453732.41,
+            "name": "lh:audit:tabindex",
+            "duration": 0.43,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453733.19,
+            "name": "lh:audit:td-headers-attr",
+            "duration": 0.44,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453734.17,
+            "name": "lh:audit:th-has-data-cells",
+            "duration": 0.54,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453734.99,
+            "name": "lh:audit:valid-lang",
+            "duration": 0.58,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453735.82,
+            "name": "lh:audit:video-caption",
+            "duration": 0.49,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453736.54,
+            "name": "lh:audit:video-description",
+            "duration": 0.61,
+            "entryType": "measure"
+          },
+          {
+            "startTime": 1453737.18,
+            "name": "lh:runner:generate",
+            "duration": 2.87,
+            "entryType": "measure"
+          }
+        ],
+        "total": 6693.21
+      },
+      "i18n": {
+        "rendererFormattedStrings": {
+          "auditGroupExpandTooltip": "Show audits",
+          "crcInitialNavigation": "Initial Navigation",
+          "crcLongestDurationLabel": "Maximum critical path latency:",
+          "errorLabel": "Error!",
+          "errorMissingAuditInfo": "Report error: no audit information",
+          "labDataTitle": "Lab Data",
+          "lsPerformanceCategoryDescription": "[Lighthouse](https://developers.google.com/web/tools/lighthouse/) analysis of the current page on an emulated mobile network. Values are estimated and may vary.",
+          "manualAuditsGroupTitle": "Additional items to manually check",
+          "notApplicableAuditsGroupTitle": "Not applicable",
+          "opportunityResourceColumnLabel": "Opportunity",
+          "opportunitySavingsColumnLabel": "Estimated Savings",
+          "passedAuditsGroupTitle": "Passed audits",
+          "snippetCollapseButtonLabel": "Collapse snippet",
+          "snippetExpandButtonLabel": "Expand snippet",
+          "thirdPartyResourcesLabel": "Show 3rd-party resources",
+          "toplevelWarningsMessage": "There were issues affecting this run of Lighthouse:",
+          "varianceDisclaimer": "Values are estimated and may vary. The performance score is [based only on these metrics](https://github.com/GoogleChrome/lighthouse/blob/d2ec9ffbb21de9ad1a0f86ed24575eda32c796f0/docs/scoring.md#how-are-the-scores-weighted).",
+          "warningAuditsGroupTitle": "Passed audits but with warnings",
+          "warningHeader": "Warnings: "
+        },
+        "icuMessagePaths": {
+          "lighthouse-core/audits/accessibility/accesskeys.js | title": [
+            "audits.accesskeys.title"
+          ],
+          "lighthouse-core/audits/accessibility/accesskeys.js | description": [
+            "audits.accesskeys.description"
+          ],
+          "lighthouse-core/audits/accessibility/aria-allowed-attr.js | title": [
+            "audits[aria-allowed-attr].title"
+          ],
+          "lighthouse-core/audits/accessibility/aria-allowed-attr.js | description": [
+            "audits[aria-allowed-attr].description"
+          ],
+          "lighthouse-core/audits/accessibility/aria-required-attr.js | title": [
+            "audits[aria-required-attr].title"
+          ],
+          "lighthouse-core/audits/accessibility/aria-required-attr.js | description": [
+            "audits[aria-required-attr].description"
+          ],
+          "lighthouse-core/audits/accessibility/aria-required-parent.js | title": [
+            "audits[aria-required-parent].title"
+          ],
+          "lighthouse-core/audits/accessibility/aria-required-parent.js | description": [
+            "audits[aria-required-parent].description"
+          ],
+          "lighthouse-core/audits/accessibility/aria-roles.js | title": [
+            "audits[aria-roles].title"
+          ],
+          "lighthouse-core/audits/accessibility/aria-roles.js | description": [
+            "audits[aria-roles].description"
+          ],
+          "lighthouse-core/audits/accessibility/aria-valid-attr-value.js | failureTitle": [
+            "audits[aria-valid-attr-value].title"
+          ],
+          "lighthouse-core/audits/accessibility/aria-valid-attr-value.js | description": [
+            "audits[aria-valid-attr-value].description"
+          ],
+          "lighthouse-core/audits/accessibility/axe-audit.js | failingElementsHeader": [
+            "audits[aria-valid-attr-value].details.headings[0].text",
+            "audits[color-contrast].details.headings[0].text",
+            "audits[link-name].details.headings[0].text"
+          ],
+          "lighthouse-core/audits/accessibility/audio-caption.js | title": [
+            "audits[audio-caption].title"
+          ],
+          "lighthouse-core/audits/accessibility/audio-caption.js | description": [
+            "audits[audio-caption].description"
+          ],
+          "lighthouse-core/audits/accessibility/button-name.js | title": [
+            "audits[button-name].title"
+          ],
+          "lighthouse-core/audits/accessibility/button-name.js | description": [
+            "audits[button-name].description"
+          ],
+          "lighthouse-core/audits/accessibility/bypass.js | title": [
+            "audits.bypass.title"
+          ],
+          "lighthouse-core/audits/accessibility/bypass.js | description": [
+            "audits.bypass.description"
+          ],
+          "lighthouse-core/audits/accessibility/color-contrast.js | failureTitle": [
+            "audits[color-contrast].title"
+          ],
+          "lighthouse-core/audits/accessibility/color-contrast.js | description": [
+            "audits[color-contrast].description"
+          ],
+          "lighthouse-core/audits/accessibility/definition-list.js | title": [
+            "audits[definition-list].title"
+          ],
+          "lighthouse-core/audits/accessibility/definition-list.js | description": [
+            "audits[definition-list].description"
+          ],
+          "lighthouse-core/audits/accessibility/dlitem.js | title": [
+            "audits.dlitem.title"
+          ],
+          "lighthouse-core/audits/accessibility/dlitem.js | description": [
+            "audits.dlitem.description"
+          ],
+          "lighthouse-core/audits/accessibility/document-title.js | title": [
+            "audits[document-title].title"
+          ],
+          "lighthouse-core/audits/accessibility/document-title.js | description": [
+            "audits[document-title].description"
+          ],
+          "lighthouse-core/audits/accessibility/duplicate-id.js | title": [
+            "audits[duplicate-id].title"
+          ],
+          "lighthouse-core/audits/accessibility/duplicate-id.js | description": [
+            "audits[duplicate-id].description"
+          ],
+          "lighthouse-core/audits/accessibility/frame-title.js | title": [
+            "audits[frame-title].title"
+          ],
+          "lighthouse-core/audits/accessibility/frame-title.js | description": [
+            "audits[frame-title].description"
+          ],
+          "lighthouse-core/audits/accessibility/html-has-lang.js | title": [
+            "audits[html-has-lang].title"
+          ],
+          "lighthouse-core/audits/accessibility/html-has-lang.js | description": [
+            "audits[html-has-lang].description"
+          ],
+          "lighthouse-core/audits/accessibility/html-lang-valid.js | title": [
+            "audits[html-lang-valid].title"
+          ],
+          "lighthouse-core/audits/accessibility/html-lang-valid.js | description": [
+            "audits[html-lang-valid].description"
+          ],
+          "lighthouse-core/audits/accessibility/image-alt.js | title": [
+            "audits[image-alt].title"
+          ],
+          "lighthouse-core/audits/accessibility/image-alt.js | description": [
+            "audits[image-alt].description"
+          ],
+          "lighthouse-core/audits/accessibility/input-image-alt.js | title": [
+            "audits[input-image-alt].title"
+          ],
+          "lighthouse-core/audits/accessibility/input-image-alt.js | description": [
+            "audits[input-image-alt].description"
+          ],
+          "lighthouse-core/audits/accessibility/layout-table.js | title": [
+            "audits[layout-table].title"
+          ],
+          "lighthouse-core/audits/accessibility/layout-table.js | description": [
+            "audits[layout-table].description"
+          ],
+          "lighthouse-core/audits/accessibility/link-name.js | failureTitle": [
+            "audits[link-name].title"
+          ],
+          "lighthouse-core/audits/accessibility/link-name.js | description": [
+            "audits[link-name].description"
+          ],
+          "lighthouse-core/audits/accessibility/list.js | title": [
+            "audits.list.title"
+          ],
+          "lighthouse-core/audits/accessibility/list.js | description": [
+            "audits.list.description"
+          ],
+          "lighthouse-core/audits/accessibility/meta-refresh.js | title": [
+            "audits[meta-refresh].title"
+          ],
+          "lighthouse-core/audits/accessibility/meta-refresh.js | description": [
+            "audits[meta-refresh].description"
+          ],
+          "lighthouse-core/audits/accessibility/meta-viewport.js | title": [
+            "audits[meta-viewport].title"
+          ],
+          "lighthouse-core/audits/accessibility/meta-viewport.js | description": [
+            "audits[meta-viewport].description"
+          ],
+          "lighthouse-core/audits/accessibility/object-alt.js | title": [
+            "audits[object-alt].title"
+          ],
+          "lighthouse-core/audits/accessibility/object-alt.js | description": [
+            "audits[object-alt].description"
+          ],
+          "lighthouse-core/audits/accessibility/tabindex.js | title": [
+            "audits.tabindex.title"
+          ],
+          "lighthouse-core/audits/accessibility/tabindex.js | description": [
+            "audits.tabindex.description"
+          ],
+          "lighthouse-core/audits/accessibility/td-headers-attr.js | title": [
+            "audits[td-headers-attr].title"
+          ],
+          "lighthouse-core/audits/accessibility/td-headers-attr.js | description": [
+            "audits[td-headers-attr].description"
+          ],
+          "lighthouse-core/audits/accessibility/th-has-data-cells.js | title": [
+            "audits[th-has-data-cells].title"
+          ],
+          "lighthouse-core/audits/accessibility/th-has-data-cells.js | description": [
+            "audits[th-has-data-cells].description"
+          ],
+          "lighthouse-core/audits/accessibility/valid-lang.js | title": [
+            "audits[valid-lang].title"
+          ],
+          "lighthouse-core/audits/accessibility/valid-lang.js | description": [
+            "audits[valid-lang].description"
+          ],
+          "lighthouse-core/audits/accessibility/video-caption.js | title": [
+            "audits[video-caption].title"
+          ],
+          "lighthouse-core/audits/accessibility/video-caption.js | description": [
+            "audits[video-caption].description"
+          ],
+          "lighthouse-core/audits/accessibility/video-description.js | title": [
+            "audits[video-description].title"
+          ],
+          "lighthouse-core/audits/accessibility/video-description.js | description": [
+            "audits[video-description].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yCategoryTitle": [
+            "categories.accessibility.title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yCategoryDescription": [
+            "categories.accessibility.description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yCategoryManualDescription": [
+            "categories.accessibility.manualDescription"
+          ],
+          "lighthouse-core/config/default-config.js | seoCategoryTitle": [
+            "categories.seo.title"
+          ],
+          "lighthouse-core/config/default-config.js | seoCategoryDescription": [
+            "categories.seo.description"
+          ],
+          "lighthouse-core/config/default-config.js | seoCategoryManualDescription": [
+            "categories.seo.manualDescription"
+          ],
+          "lighthouse-core/config/default-config.js | metricGroupTitle": [
+            "categoryGroups.metrics.title"
+          ],
+          "lighthouse-core/config/default-config.js | loadOpportunitiesGroupTitle": [
+            "categoryGroups[load-opportunities].title"
+          ],
+          "lighthouse-core/config/default-config.js | loadOpportunitiesGroupDescription": [
+            "categoryGroups[load-opportunities].description"
+          ],
+          "lighthouse-core/config/default-config.js | budgetsGroupTitle": [
+            "categoryGroups.budgets.title"
+          ],
+          "lighthouse-core/config/default-config.js | budgetsGroupDescription": [
+            "categoryGroups.budgets.description"
+          ],
+          "lighthouse-core/config/default-config.js | diagnosticsGroupTitle": [
+            "categoryGroups.diagnostics.title"
+          ],
+          "lighthouse-core/config/default-config.js | diagnosticsGroupDescription": [
+            "categoryGroups.diagnostics.description"
+          ],
+          "lighthouse-core/config/default-config.js | pwaFastReliableGroupTitle": [
+            "categoryGroups[pwa-fast-reliable].title"
+          ],
+          "lighthouse-core/config/default-config.js | pwaInstallableGroupTitle": [
+            "categoryGroups[pwa-installable].title"
+          ],
+          "lighthouse-core/config/default-config.js | pwaOptimizedGroupTitle": [
+            "categoryGroups[pwa-optimized].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yBestPracticesGroupTitle": [
+            "categoryGroups[a11y-best-practices].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yBestPracticesGroupDescription": [
+            "categoryGroups[a11y-best-practices].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yColorContrastGroupTitle": [
+            "categoryGroups[a11y-color-contrast].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yColorContrastGroupDescription": [
+            "categoryGroups[a11y-color-contrast].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupTitle": [
+            "categoryGroups[a11y-names-labels].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yNamesLabelsGroupDescription": [
+            "categoryGroups[a11y-names-labels].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yNavigationGroupTitle": [
+            "categoryGroups[a11y-navigation].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yNavigationGroupDescription": [
+            "categoryGroups[a11y-navigation].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yAriaGroupTitle": [
+            "categoryGroups[a11y-aria].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yAriaGroupDescription": [
+            "categoryGroups[a11y-aria].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yLanguageGroupTitle": [
+            "categoryGroups[a11y-language].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yLanguageGroupDescription": [
+            "categoryGroups[a11y-language].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yAudioVideoGroupTitle": [
+            "categoryGroups[a11y-audio-video].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yAudioVideoGroupDescription": [
+            "categoryGroups[a11y-audio-video].description"
+          ],
+          "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupTitle": [
+            "categoryGroups[a11y-tables-lists].title"
+          ],
+          "lighthouse-core/config/default-config.js | a11yTablesListsVideoGroupDescription": [
+            "categoryGroups[a11y-tables-lists].description"
+          ],
+          "lighthouse-core/config/default-config.js | seoMobileGroupTitle": [
+            "categoryGroups[seo-mobile].title"
+          ],
+          "lighthouse-core/config/default-config.js | seoMobileGroupDescription": [
+            "categoryGroups[seo-mobile].description"
+          ],
+          "lighthouse-core/config/default-config.js | seoContentGroupTitle": [
+            "categoryGroups[seo-content].title"
+          ],
+          "lighthouse-core/config/default-config.js | seoContentGroupDescription": [
+            "categoryGroups[seo-content].description"
+          ],
+          "lighthouse-core/config/default-config.js | seoCrawlingGroupTitle": [
+            "categoryGroups[seo-crawl].title"
+          ],
+          "lighthouse-core/config/default-config.js | seoCrawlingGroupDescription": [
+            "categoryGroups[seo-crawl].description"
+          ]
+        }
+      },
+      "stackPacks": []
     }
   ]
 }
