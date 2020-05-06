@@ -6,6 +6,10 @@ const load = document.querySelector("img");
 const pos = document.getElementById("positive");
 const neg = document.getElementById("negative");
 
+function saveData(){
+  
+}
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   results.innerHTML = "";
@@ -21,6 +25,10 @@ form.addEventListener("submit", (e) => {
       let message = "";
       
       load.classList.add("display-none");
+      const save = document.createElement('button')
+      save.className = 'save-button'
+      save.innerText = 'opslaan'
+      save.addEventListener('click', saveData())
       const headerTitle = document.createElement("h2");
       const headerScore = document.createElement("h2");
       const tip = document.createElement("p");
@@ -35,6 +43,7 @@ form.addEventListener("submit", (e) => {
       }
       if (data.categories.accessibility.score <= 0.9) {
         message = "Dat moet echt wel even beter!";
+        neg.classList.remove("display-none");
         tip.className = "orange";
         headerScore.className = "orange";
       }
@@ -59,6 +68,7 @@ form.addEventListener("submit", (e) => {
         if (element[1].score == 0) {
           console.log(element[1].score);
           
+         
           const container = document.createElement("div");
           const audit = document.createElement("h4");
           const desc = document.createElement("p");
@@ -69,28 +79,30 @@ form.addEventListener("submit", (e) => {
 
           container.append(audit);
           container.append(desc);
-          results.append(container);
           
-          const listing = document.createElement('ul')
-          const label = document.createElement('label')
-          const showMore = document.createElement('input')
-          showMore.setAttribute('id', 'more')
-          showMore.setAttribute('type', 'checkbox')
-          label.setAttribute('for', 'more')
-          label.innerText = 'Laat betreffende elementen zien'
-          listing.append(label)
-          listing.append(showMore)
-          element[1].details.items.map(error =>{
-            const errorEx = document.createElement('li')
-            const errorSnip = document.createElement('span')
-            errorEx.innerText = error.node.explanation
-            errorSnip.innerText = error.node.snippet
+          results.append(container);
+         
+          // const listing = document.createElement('ul')
+          // const label = document.createElement('label')
+          // const showMore = document.createElement('input')
+          // showMore.setAttribute('id', 'more')
+          // showMore.setAttribute('type', 'checkbox')
+          // label.setAttribute('for', 'more')
+          // label.innerText = 'Laat betreffende elementen zien'
+          // listing.append(label)
+          // listing.append(showMore)
+          // element[1].details.items.map(error =>{
+          //   const errorEx = document.createElement('li')
+          //   const errorSnip = document.createElement('span')
+          //   errorEx.innerText = error.node.explanation
+          //   errorSnip.innerText = error.node.snippet
 
-            errorEx.append(errorSnip)
-            listing.append(errorEx)
-            container.append(listing)
-          })
+          //   errorEx.append(errorSnip)
+          //   listing.append(errorEx)
+          //   container.append(listing)
+          // })
         }
+        results.append(save)
       });
     });
 });

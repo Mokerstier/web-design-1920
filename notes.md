@@ -122,3 +122,46 @@ Leuk met geluid
 Meerdere tabellen? (show/unshow)
 Spraak stop commando?
 Custom screen reader voor tabel
+
+
+### Tips en tops?
+Team Marie:
+##### Gijs
+- Goede intro, goed verhaal
+- 
+
+##### Mohammad
+Tip ik vond de tekst persoonlijk heel snel gaan
+
+##### Tim
+
+
+##### Marissa
+Hele vette illustraties!
+
+##### Joan
+Duidelijk verhaal lekker kort ook
+
+#### Coen
+Vet dat je de mobiel hebt gebruikt
+
+#### Leroy
+
+#### Reinier
+Vet gedaan ook de eerste die ik zie die verschillende kleur gebruikt om personen herkenbaar te maken
+
+#### Gio
+
+
+Team Larissa
+
+#### Kyle
+lekker korte presentatie
+
+#### Heralt
+Heel goed gedaan met die pijltjes toetsen slim!
+
+#### Manouk
+Mooie simpele interface zeer duidelijk met die verschillende kleuren!
+
+#### Stefan

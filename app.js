@@ -89,7 +89,11 @@ app
       title: "Home",
     });
   })
-
+  .get('/saved', (req, res) => {
+    res.render('pages/saved.ejs', {
+      title: "Opgeslagen"
+    })
+  })
   .listen(PORT || 3000, () => {
     console.log("Listnening in on http://localhost:3000");
   });
