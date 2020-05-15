@@ -1,4 +1,10 @@
 # Web Design @cmda-minor-web 1920
+## Project
+In dit project is een web-app op maat gemaakt voor [Roger Ravelli](https://github.com/Mokerstier/web-design-1920/wiki/User-scenario#wie-is-roger-ravelli-eigenlijk), de web-app wordt aan de hand van interviews en tests met Roger steeds verbetered. 
+
+## Concept
+Met deze web-app kan Roger zelf data over toegankelijkheid vergaren van websites aan de hand van een lighthouse audit.
+De app geeft o.a. door middel van geluid feedback over de score, behaalt door de pagina.
 
 ## Alle informatie over dit project is terug te lezen in de WIKI
 
